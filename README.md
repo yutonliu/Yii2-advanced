@@ -1,4 +1,7 @@
-# Yii2-advanced
+# Yii2-advanced 高级版yii2.0的开发环境nginx配置
+
+##### 框架下载地址：https://github.com/yiisoft/yii2-app-advanced/releases
+
 
 >1. 解压文件
 
@@ -30,6 +33,9 @@ $ ./init
 >4.修改 .user.ini
 
 ~~~sql
+#先给可修改的权限
+chattr -i .user.ini
+
 # 多加一级 /home/wwwroot/default/yii2-app-advanced-2.0.14/
 
 # frontend/web下的 .user.ini
